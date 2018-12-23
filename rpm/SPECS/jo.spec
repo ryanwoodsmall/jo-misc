@@ -1,10 +1,10 @@
 Name:           jo
-Version:        1.1
+Version:        1.2
 Release:        1%{?dist}
 Summary:        JSON output from a shell
 License:        GPLv2
 URL:            https://github.com/jpmens/jo
-Source0:        https://github.com/jpmens/jo/releases/download/v%{version}/%{name}-%{version}.tar.gz
+Source0:        https://github.com/jpmens/jo/releases/download/%{version}/%{name}-%{version}.tar.gz
 BuildRequires:  make
 BuildRequires:  musl-static >= 1.1.20
 
@@ -30,11 +30,18 @@ make %{?_smp_mflags}
 make DESTDIR=%{buildroot} install-strip
 
 
+%check
+make check
+
+
 %files
 %{_bindir}/%{name}
 %{_mandir}/man1/%{name}.*
 
 
 %changelog
+* Sat Dec 22 2018 ryan woodsmall <rwoodsmall@gmail.com> - 1.2-1
+- jo 1.2
+
 * Thu Oct 18 2018 ryan woodsmall <rwoodsmall@gmail.com> - 1.1-1
 - jo 1.1
