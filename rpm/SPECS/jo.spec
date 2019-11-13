@@ -1,5 +1,5 @@
 Name:           jo
-Version:        1.2
+Version:        1.3
 Release:        5%{?dist}
 Summary:        JSON output from a shell
 License:        GPLv2
@@ -37,9 +37,13 @@ make check
 %files
 %{_bindir}/%{name}
 %{_mandir}/man1/%{name}.*
+%{_sysconfdir}/bash_completion.d/%{name}.bash
 
 
 %changelog
+* Tue Nov 12 2019 ryan woodsmall <rwoodsmall@gmail.com>
+- jo 1.3
+
 * Sat Oct 26 2019 ryan woodsmall <rwoodsmall@gmail.com>
 - release bump for musl 1.1.24
 
