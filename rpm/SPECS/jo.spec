@@ -1,12 +1,12 @@
 Name:           jo
 Version:        1.3
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        JSON output from a shell
 License:        GPLv2
 URL:            https://github.com/jpmens/jo
 Source0:        https://github.com/jpmens/jo/releases/download/%{version}/%{name}-%{version}.tar.gz
 BuildRequires:  make
-BuildRequires:  musl-static >= 1.1.24
+BuildRequires:  musl-static >= 1.2.1-0
 
 
 %description
@@ -41,6 +41,9 @@ make check
 
 
 %changelog
+* Tue Oct 20 2020 ryan woodsmall <rwoodsmall@gmail.com>
+- release bump for musl 1.2.1
+
 * Tue Nov 12 2019 ryan woodsmall <rwoodsmall@gmail.com>
 - jo 1.3
 
