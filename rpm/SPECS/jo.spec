@@ -1,5 +1,5 @@
 Name:           jo
-Version:        1.3
+Version:        1.4
 Release:        6%{?dist}
 Summary:        JSON output from a shell
 License:        GPLv2
@@ -41,6 +41,9 @@ make check
 
 
 %changelog
+* Thu Dec 03 2020 ryan woodsmall <rwoodsmall@gmail.com>
+- jo 1.4
+
 * Tue Oct 20 2020 ryan woodsmall <rwoodsmall@gmail.com>
 - release bump for musl 1.2.1
 
