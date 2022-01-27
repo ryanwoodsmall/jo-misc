@@ -1,5 +1,5 @@
 Name:           jo
-Version:        1.5
+Version:        1.6
 Release:        8%{?dist}
 Summary:        JSON output from a shell
 License:        GPLv2
@@ -43,6 +43,7 @@ make check
 
 %changelog
 * Thu Jan 27 2022 ryan woodsmall
+- jo 1.6
 - jo 1.5
 
 * Fri Jan 15 2021 ryan woodsmall <rwoodsmall@gmail.com>
