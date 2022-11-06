@@ -1,5 +1,5 @@
 Name:           jo
-Version:        1.7
+Version:        1.9
 Release:        9%{?dist}
 Summary:        JSON output from a shell
 License:        GPLv2
@@ -44,6 +44,7 @@ make check
 %changelog
 * Sun Nov 6 2022 ryan woodsmall
 - jo 1.7
+- jo 1.9
 
 * Fri Apr 29 2022 ryan woodsmall
 - release bump for musl 1.2.3
