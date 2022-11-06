@@ -1,5 +1,5 @@
 Name:           jo
-Version:        1.6
+Version:        1.7
 Release:        9%{?dist}
 Summary:        JSON output from a shell
 License:        GPLv2
@@ -42,42 +42,45 @@ make check
 
 
 %changelog
-* Fri Apr 29 2022 ryan woodsmall <rwoodsmall@gmail.com>
+* Sun Nov 6 2022 ryan woodsmall
+- jo 1.7
+
+* Fri Apr 29 2022 ryan woodsmall
 - release bump for musl 1.2.3
 
 * Thu Jan 27 2022 ryan woodsmall
 - jo 1.6
 - jo 1.5
 
-* Fri Jan 15 2021 ryan woodsmall <rwoodsmall@gmail.com>
+* Fri Jan 15 2021 ryan woodsmall
 - release bump for musl 1.2.2
 
-* Wed Dec 30 2020 ryan woodsmall <rwoodsmall@gmail.com>
+* Wed Dec 30 2020 ryan woodsmall
 - release bump for musl CVE-2020-28928
 
-* Thu Dec 03 2020 ryan woodsmall <rwoodsmall@gmail.com>
+* Thu Dec 03 2020 ryan woodsmall
 - jo 1.4
 
-* Tue Oct 20 2020 ryan woodsmall <rwoodsmall@gmail.com>
+* Tue Oct 20 2020 ryan woodsmall
 - release bump for musl 1.2.1
 
-* Tue Nov 12 2019 ryan woodsmall <rwoodsmall@gmail.com>
+* Tue Nov 12 2019 ryan woodsmall
 - jo 1.3
 
-* Sat Oct 26 2019 ryan woodsmall <rwoodsmall@gmail.com>
+* Sat Oct 26 2019 ryan woodsmall
 - release bump for musl 1.1.24
 
-* Wed Jul 17 2019 ryan woodsmall <rwoodsmall@gmail.com> - 1.2-4
+* Wed Jul 17 2019 ryan woodsmall
 - release bump for musl 1.1.23
 
-* Thu Apr 11 2019 ryan woodsmall <rwoodsmall@gmail.com> - 1.2-3
+* Thu Apr 11 2019 ryan woodsmall
 - release bump for musl 1.1.22
 
-* Tue Jan 22 2019 ryan woodsmall <rwoodsmall@gmail.com> - 1.2-2
+* Tue Jan 22 2019 ryan woodsmall
 - release bump for musl-1.1.21
 
-* Sat Dec 22 2018 ryan woodsmall <rwoodsmall@gmail.com> - 1.2-1
+* Sat Dec 22 2018 ryan woodsmall
 - jo 1.2
 
-* Thu Oct 18 2018 ryan woodsmall <rwoodsmall@gmail.com> - 1.1-1
+* Thu Oct 18 2018 ryan woodsmall
 - jo 1.1
