@@ -19,6 +19,7 @@ https://jpmens.net/2016/03/05/a-shell-command-to-create-json-jo/
 
 
 %build
+. /etc/profile
 %configure \
   CC="musl-gcc" \
   CFLAGS="-fPIC -Wl,-static" \
@@ -44,6 +45,7 @@ make check
 %changelog
 * Thu May 25 2023 ryanwoodsmall
 - musl 1.2.4
+- source profile
 
 * Sun Nov 6 2022 ryan woodsmall
 - jo 1.7
