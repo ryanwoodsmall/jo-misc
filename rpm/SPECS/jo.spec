@@ -1,12 +1,12 @@
 Name:           jo
 Version:        1.9
-Release:        9%{?dist}
+Release:        10%{?dist}
 Summary:        JSON output from a shell
 License:        GPLv2
 URL:            https://github.com/jpmens/jo
 Source0:        https://github.com/jpmens/jo/releases/download/%{version}/%{name}-%{version}.tar.gz
 BuildRequires:  make
-BuildRequires:  musl-static >= 1.2.3-1
+BuildRequires:  musl-static >= 1.2.4-0
 
 
 %description
@@ -42,6 +42,9 @@ make check
 
 
 %changelog
+* Thu May 25 2023 ryanwoodsmall
+- musl 1.2.4
+
 * Sun Nov 6 2022 ryan woodsmall
 - jo 1.7
 - jo 1.9
